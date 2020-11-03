@@ -1,0 +1,40 @@
+.JobItem {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  background-color: #fff;
+
+  .jobitem-header {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 2rem;
+    }
+    span {
+      font-size: 1.4rem;
+      color: #555;
+    }
+  }
+  .jobitem-footer {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-job-info {
+      font-size: 1.6rem;
+      color: #555;
+      h4 {
+        font-size: inherit;
+        font-weight: normal;
+      }
+      span {
+        margin: 0 1rem;
+        font-size: inherit;
+        &:last-child {
+          font-weight: bold;
+          color: #0ca10c;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
