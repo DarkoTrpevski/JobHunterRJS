@@ -46,6 +46,19 @@ ul, li {
   list-style: none;
 }
 
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: #4299e1;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: inherit;

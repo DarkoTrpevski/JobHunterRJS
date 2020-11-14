@@ -5,10 +5,10 @@ import JobItem from './JobItem/JobItem';
 
 const Results = ({ jobs }) => {
   return (
-    <div className="Results" style = {{marginTop: '4rem'}}>
+    <div className="Results" style = {{width: '100%', marginTop: '4rem'}}>
       <div className="md-container">
         {jobs.map((job, idx) => (
-          <JobItem key={job.id} job = {job} />
+          <JobItem key={idx} job = {job} />
         ))}
       </div>
     </div>

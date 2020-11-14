@@ -1,18 +1,17 @@
-import React, { useState } from 'react';
-import Search from '../../components/Search/Search'
-import Results from '../../components/Results/Results'
+import React from 'react';
+import Results from '../../components/Results/Results';
+import SearchContainer from '../../components/SearchContainer/SearchContainer';
+import './Home.scss';
 
 const Home = () => {
-  
-  // const [loading, setLoading] = useState(false);
 
   return (
-    <div className = "Home" style = {{paddingTop: '5rem', backgroundColor: '#e7ebf0'}}>
-      <Search />
-        {/* {loading && <p className="loading">Loading...</p>} */}
-      <Results />
+    <div className = "Home">
+      <SearchContainer>
+        <Results />
+      </SearchContainer>
     </div>
   )
 }
 
-export default Home;
+export default Home

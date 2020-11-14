@@ -52,6 +52,10 @@
 
     .form-bottom-row {
       display: flex;
+
+      .disabled {
+        background-color: #e09e9e!important;
+      }
       button {
         width: 50%;
         padding: 1rem 0;

@@ -1,0 +1,14 @@
+.Home {
+  padding: 5rem 0;
+  background-color: #e7ebf0;
+  
+  .load-more-btn {
+    transition: all 0.2s ease-in;
+    &:hover {
+      background-color: #3486c9;
+    }
+    &.disabled {
+      background-color: red;
+    }
+  }
+}
